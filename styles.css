@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#a060d1;
+}
+
+#buttons{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn,
+.stop{
+    width:140px;
+    height:70px;
+    border:none;
+    border-radius:5px;
+    background:#673ab7;
+    color:#fff;
+    font-size:22px;
+    cursor:pointer;
+}/*  your css code here. If applicable */
